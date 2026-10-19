@@ -13,7 +13,7 @@ window.CONFIG = {
   eslogan: "Fabricación · Soldadura · Electricidad · A/C",
   iniciales: "HC",               // se muestra si no hay logo
   logo: "",                      // link a una imagen (opcional), ej: "logo.png"
-  colorAcento: "#E8B04A",        // color principal (código hex)
+  colorAcento: "#C8892A",        // color principal (código hex)
 
   // ---- WiFi ----
   wifi: {
@@ -24,7 +24,7 @@ window.CONFIG = {
 
   // ---- WhatsApp (número con código de país, sin + ni espacios) ----
   whatsapp: {
-    numero: "50497483817",
+    numero: "50487973798",
     mensaje: "¡Hola! Estoy en la mesa {mesa} y quisiera hacer un pedido."
   },
 
@@ -54,14 +54,14 @@ window.CONFIG = {
 
   // ---- Redes sociales (deja "" las que no tengas) ----
   redes: {
-    instagram: "",
+    instagram: "https://www.instagram.com/hc.customshn/",
     facebook: "",
     tiktok: "",
     web: ""
   },
 
   // ---- Extras (opcionales) ----
-  telefono: "+504 9748-3817",
+  telefono: "+504 8797-3798",
   correo: "hc.customshn@gmail.com",
   direccion: "San Pedro Sula, Honduras",
   mapa: "",                      // link de Google Maps
