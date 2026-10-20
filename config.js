@@ -25,6 +25,18 @@ window.CONFIG = {
     seguridad: "WPA"             // "WPA", "WEP" o "nopass" (sin clave)
   },
 
+  // ---- Cuentas de banco (para transferencias) ----
+  // Agrega o quita bancos copiando una línea. Si no usas esta sección, deja: cuentas: []
+  bancos: {
+    titulo: "Cuentas de banco",
+    titular: "",                 // nombre de la cuenta (opcional), ej: "Cevichería La Marea S. de R.L."
+    cuentas: [
+      { banco: "BAC",      tipo: "", numero: "744447741" },
+      { banco: "Ficohsa",  tipo: "", numero: "73847272" },
+      { banco: "Banpaís",  tipo: "", numero: "274847273" }
+    ]
+  },
+
   // ---- WhatsApp: a este número llegan los pedidos ----
   whatsapp: {
     numero: "50487973798"        // con código de país, sin + ni espacios
